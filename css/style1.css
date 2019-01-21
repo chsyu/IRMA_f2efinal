@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed');
+@import url('./font-awesome.min.css');
+
+body{
+    width: 100vw;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contain{
+    padding: 0;
+}
+
+.landingpage{
+    height:54vw ;
+
+    margin: 0;
+}
+.landL{
+    width: 50vw;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    padding: 0;
+}
+.landtext{
+    width: 38vw ;
+    margin-top:7.1vw;
+    margin-left: 12vw;
+    height: 40vw;
+    background-color: #14213D;
+    text-align: center;    
+                 
+}
+.textbox{
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;  
+    
+}
+.brand{
+    top: 8vw;
+    left: 14vw;
+    position: absolute;
+    margin: 0 auto;
+    font-size: 5vw;
+    color: #fff;
+    font-family: vladimir script;
+}
+.slogan{
+    left: 2vw;
+    position: absolute;
+    color: #fff;
+    font-size: 2vw;
+    letter-spacing: 0.5vw;
+    width: 35vw;
+    top:15vw;
+   
+    
+}
+.slogan2{
+    left: 3.4vw;
+    top: 19.5vw;
+    position: absolute;
+    line-height: 3vw;
+    color: #fff;
+    width: 32vw;
+    font-size: 1vw;
+    letter-spacing: 0.5vw;
+    font-style: italic;
+}
+.landR{
+    width: 30vw;
+    background-color: #FCA311;
+    padding: 0;
+}
+.landbox{
+    padding: 0;
+}
+.landingimg{
+    width: 38vw;
+    height: 40vw;
+    margin-top:7.1vw;
+    background-color: #14213D;
+    padding: 0;
+    margin-right: 12vw;
+}
+.landingimg img{
+    width: 32vw;
+    height: 40vw;
+}
+.land2{
+    margin: 0;
+    width: 100vw;
+}
+.cruise{
+
+    height: 56vw;
+    padding: 0;
+    background-image: url(../images/cruise.jpg);
+    background-size : contain;
+    position: relative;
+    
+}
+.cruisetext{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    font-size: 4vw;
+    width: 40vw;
+    top: 17vw;
+    left: 7vw;
+    letter-spacing: 0.5vw;
+}
+
+.c2019{
+    width: 100vw;
+    height: 92vw;
+    position: relative;
+    margin: 0;
+}
+
+    .new{
+        display: inline;
+        position: absolute;
+        right:17vw;
+        top: 6vw;
+        width: 35vw;
+        height: 43vw;
+
+    }
+    .clothstext{
+        position: absolute;
+        top:15vw;
+        left: 13vw;
+        font-size: 2vw;
+        letter-spacing: 1px;
+
+    }
+    .cloths{
+        position: absolute;
+        left: 14vw;
+        width: 26vw;
+        height: 43vw;
+        bottom:25vw;
+    }
+    .cloths:hover{
+        width: 28vw;
+        height: 47vw;
+        left: 13vw;
+        bottom: 23vw;
+    }
+  
+    .shoes{
+        position: absolute;
+        height: 28vw;
+        bottom: 6vw;
+        left: 48vw;
+    }
+    .shoes:hover{
+        height: 31vw;
+        bottom: 5vw;
+        left: 47vw;
+    }
+    .shoestext{
+        position: absolute;
+        font-size: 2vw;
+        letter-spacing: 1px;
+        bottom: 18vw;
+        left: 11.4vw;
+    }
+    
+    .bag{
+        position: absolute;
+        width: 20vw;
+        height: 26vw;
+        right: 9vw;
+        bottom: 32vw;
+    }
+    .bag:hover{
+        width: 22vw;
+        height: 28vw;
+        right: 8vw;
+        bottom: 31vw;
+    }
+    .bagtext{
+        position: absolute;
+        font-size: 2vw;
+        letter-spacing: 1px;
+        bottom: 26vw;
+        right: 8.9vw;
+    }
+   
+    .shoes2{
+        display: none;
+    }
+    .sort1{
+        
+        margin: 0; 
+    }
+    .fragrance{
+        width: 50vw;
+        height: 58vw;
+        padding: 0;
+        position: relative;
+        background-image: url(/images/FRAGNANCE.jpg);
+        background-size: cover;
+        
+    }
+    a .fragrancebox{
+        position: absolute;
+        width: 50vw;
+        height: 58vw;
+       
+    }
+    a .fragrancebox:hover{
+        background-color: rgba(252, 163, 17, 0.3);
+
+    }
+    
+    .ft{
+        width: 50vw;
+        font-family: vladimir script;
+        color: #fff;
+        font-size:8vw;
+        margin-top: 22vw;
+        text-align: center;
+    }
+   
+    a:hover{
+        text-decoration: none;
+    }
+    .bags{
+        width: 50vw;
+        height: 58vw;
+        background-image: url(/images/bags.jpg);
+        background-size: cover;
+        padding: 0;
+        }
+    a .bagbox{
+        position: absolute;
+        width: 50vw;
+        height: 58vw;
+    }
+    a .bagbox:hover{
+        background-color: rgba(19, 33, 61,0.5);
+    }
+    .bt{
+        width: 50vw;
+        font-family: vladimir script;
+        color: #fff;
+        font-size:8vw;
+        margin-top: 22vw;
+        text-align: center;
+        color: #fCA311;
+    }
+    .sort2{
+        margin: 0;
+    }
+    .outfit{
+        position: relative;
+        width: 50vw;
+        height: 58vw;
+        background-image: url(/images/top.jpg);
+        background-size: cover;
+        padding: 0;
+    }
+    a .outfitbox{
+        position: absolute;
+        width: 50vw;
+        height: 58vw;
+    }
+    a .outfitbox:hover{
+        background-color: rgba(19, 33, 61,0.5);
+    }
+    .ot
+    {
+        width: 50vw;
+        font-family: vladimir script;
+        color: #fff;
+        font-size:8vw;
+        margin-top: 22vw;
+        text-align: center;
+        color: #fCA311;
+    }
+
+    .jewelry{
+        width: 50vw;
+        height: 58vw;
+        background-image: url(/images//jewlery.jpg);
+        background-size: cover;
+        padding: 0;
+        position: relative;
+    }
+    a .jewelrybox{
+        position: absolute;
+        width: 50vw;
+        height: 58vw;
+    }
+    a .jewelrybox:hover{
+        background-color: rgba(252, 163, 17, 0.3);
+    }
+    .jt{
+        width: 50vw;
+        font-family: vladimir script;
+        color: #fff;
+        font-size:8vw;
+        margin-top: 22vw;
+        text-align: center;
+    }
+    
+    .closebt{
+    position: absolute;
+    right:1vw;
+    top: 1vw;
+    width: 2vw;
+    height: 2vw;
+    font-size: 10vw;
+    color:#fff;
+    z-index: 100;
+    }
+
+.showbigc{
+    top: 6vw;
+    width: 100vw;
+    height: 74vw;
+    position: relative;
+    z-index: 3;
+}
+.ycolorarea{
+    left: 40vw;
+    position:absolute;
+    width: 60vw;
+    height: 80vw;
+    background-color:#FCA311;
+    z-index: -1;
+}
+.bcolorarea{
+    position: absolute;
+    width: 40vw;
+    height: 80vw;
+    background-color: rgba(19, 33, 61,0.8);
+}
+
+.skirtbg{
+    width: 40vw;
+    height: 80vw;
+    background-size: 280%;
+    background-position: -30vw -50vw;
+    background-image: url(/images/skirtmodel.jpg);
+
+}
+.skirtext{
+    position: absolute;
+    letter-spacing: 0.3vw;
+    width: 50vw;
+    font-size: 4vw;
+    color: #fff;
+    margin-top: 20vw;
+    margin-left: 3vw;
+    z-index: 10;
+}
+.skirtext2{
+    position: absolute;
+    letter-spacing: 0.3vw;
+    width: 30vw;
+    font-size: 2vw;
+    color: #fff;
+    margin-top: 33vw;
+    margin-left: 3vw;
+}
+.skirmodel{
+    position: absolute;
+    right:10vw;
+    width: 40vw;
+    bottom: 4vw;
+    
+}
+.showbigs{
+    top: 6vw;
+    width: 100vw;
+    height: 74vw;
+    position: relative;
+    z-index: 3;
+}
+
+.shoesbg{
+    width: 40vw;
+    height: 80vw;
+    background-size: 350%;
+    background-position: -40vw 80vw;
+    background-image: url(/images/bootsmodel.jpg);
+
+}
+.shoesname{
+    position: absolute;
+    letter-spacing: 0.3vw;
+    width: 45vw;
+    font-size: 4vw;
+    color: #fff;
+    margin-top: 20vw;
+    margin-left: 3vw;
+    z-index: 10;
+}
+.shoestext2{
+    position: absolute;
+    letter-spacing: 0.3vw;
+    width: 30vw;
+    font-size: 2vw;
+    color: #fff;
+    margin-top: 33vw;
+    margin-left: 3vw;
+}
+.shoesmodel{
+    position: absolute;
+    right:10vw;
+    width: 40vw;
+    bottom: 4vw;
+    
+}
+.showbigb{
+    top: 6vw;
+    width: 100vw;
+    height: 74vw;
+    position: relative;
+    z-index: 3;
+}
+.bagbg{
+    width: 40vw;
+    height: 80vw;
+    background-size: 350%;
+    background-position: -65vw 0vw;
+    background-image: url(/images/bagbg.jpg);
+
+}
+.bagname{
+    position: absolute;
+    letter-spacing: 0.3vw;
+    width: 50vw;
+    font-size: 4vw;
+    color: #fff;
+    margin-top: 20vw;
+    margin-left: 3vw;
+    z-index: 10;
+}
+.bagtext2{
+    position: absolute;
+    letter-spacing: 0.3vw;
+    width: 30vw;
+    font-size: 2vw;
+    color: #fff;
+    margin-top: 34vw;
+    margin-left: 3vw;
+}
+.bagmodel{
+    position: absolute;
+    right:7.5vw;
+    width: 45vw;
+    bottom: 5vw;
+    
+}
+
+.footer{
+    padding-left: 32vw;
+    margin:0;
+    position: relative;
+    padding-top: 1.1vw;
+    background-color: #333333;
+    height: 17vw;
+} 
+.footer_title{
+    font-size: 1.005vw;
+    font-weight: bold; 
+    color:#9b9b9b;
+    font-size: 
+ 
+
+}
+.footer_text{
+    font-size: 0.9vw;
+    color:white;
+  
+}
+
+.footer_img_f{
+    margin-left:0vw; 
+    width: 2vw;
+    margin-right:0.2vw;
+    
+}
+.footer_img{
+    width: 2vw;
+    margin-right:0.5vw;
+}
+.right{
+    font-size:0.3vw;
+    margin-bottom: 0;
+    color:#9b9b9b;
+}
+.meetirma{
+    line-height: 1.5vw;
+    width: 13vw;
+
+   
+}.help{
+    line-height: 1.5vw;
+    width: 13vw;   
+}.find{
+    line-height: 1.5vw;
+    width: 13vw;
+}
+
+@media screen and (max-width: 992px){
+    .cruise{
+        background-size: contain;
+    }
+
+    .new{
+        display: none;
+    }
+    .c2019{
+        height: 86vw;
+    }
+
+    .showbigc{
+        top: 6vw;
+        width: 100vw;
+        height: 74vw;
+    
+        position: relative;
+        z-index: 3;
+    }
+    .ycolorarea{
+        left: 40vw;
+        position:absolute;
+        width: 60vw;
+        height: 74vw;
+        background-color:#FCA311;
+        z-index: -1;
+    }
+    .bcolorarea{
+        position: absolute;
+        width: 40vw;
+        height: 74vw;
+        background-color: rgba(19, 33, 61,0.8);
+    }
+    
+    .skirtbg{
+        width: 40vw;
+        height: 74vw;
+        background-size: 280%;
+        background-position: -30vw -50vw;
+        background-image: url(/images/skirtmodel.jpg);
+    
+    }
+    .skirtext{
+        position: absolute;
+        letter-spacing: 0.3vw;
+        width: 50vw;
+        font-size: 4vw;
+        color: #fff;
+        margin-top: 20vw;
+        margin-left: 3vw;
+        z-index: 10;
+    }
+    .skirtext2{
+        position: absolute;
+        letter-spacing: 0.3vw;
+        width: 30vw;
+        font-size: 2vw;
+        color: #fff;
+        margin-top: 34vw;
+        margin-left: 3vw;
+    }
+    .skirmodel{
+        position: absolute;
+        right:10vw;
+        width: 40vw;
+        bottom: 7vw;
+        
+    }
+
+
+    .clothstext{
+        position: absolute;
+        font-size: 2vw;
+        letter-spacing: 1px;
+        top:60vw;
+        left: 16.4vw;
+        height: 4px;
+
+    }
+    .cloths{
+        position: absolute;
+        left: 18vw;
+        width: 26vw;
+        height: 42vw;
+        bottom:30.75vw;
+    }
+    .cloths:hover{
+        width: 28vw;
+        height: 47vw;
+        left: 17vw;
+        bottom: 26vw;
+    }
+    .shopnowc{
+        letter-spacing: 0.3vw;
+        text-align: center;
+        width: 8VW;
+        left: 27.2VW;
+        font-size: 1.5VW;
+        position: absolute;
+        top: 69.25vw;
+        background-color: #FCA311;
+        padding: 0.5vw;
+        height: 3.5vw;
+    }
+    .shoes{
+        display: none;
+    }
+    .shoes2{
+
+        position: absolute;
+        display: inline;
+        width: 22vw;
+        height: 22vw;
+        right: 17vw;
+        top: 52vw;
+    
+    }
+    .shoes2:hover{
+        width: 23vw;
+        height: 23vw;
+        right: 16vw;
+        top: 51vw;
+    }
+    .shoestext{
+        position: absolute;
+        font-size: 2vw;
+        letter-spacing: 1px;
+        bottom: 6vw;
+        left: 56.3vw;
+    }
+    .shoesbg{
+        height: 74vw;
+    }
+    .bag{
+        position: absolute;
+        width: 20vw;
+        height: 26vw;
+        right: 18vw;
+        top: 6vw;
+    }
+    .bag:hover{
+        right: 16.5vw;
+        top: 5vw;
+    }
+    .bagtext{
+        position: absolute;
+        font-size: 2vw;
+        letter-spacing: 1px;
+        top: 34vw;
+        right: 17.7vw;
+    }
+    .bagbg{
+        height: 74vw;
+    }
+    .shopnowb{
+        position: absolute;
+        text-align: center;
+        height: 3.5vw;
+        width: 8VW;
+        right: 24vw;
+        font-size: 1.5VW;
+        position: absolute;
+        top: 39vw;
+        color: #fff;
+        background-color: #14213D;
+        padding:0.5vw;
+        letter-spacing: 0.3vw;
+    }
+
+   
+
+    
+}
+@media screen and (max-width: 768px){
+    .new{
+        display: none;
+    }
+    .c2019{
+        
+        height: 190vw;
+        text-align: center;
+    }
+
+    
+    .clothstext{
+      
+        font-size: 2.5vw;
+        letter-spacing: 0.1vw;
+        top:66vw;
+        left: 32vw;
+        height: 4px;
+
+    }
+    .cloths{
+        position: absolute;
+        left: 32.5vw;
+        width: 35vw;
+        height: 56vw;
+        top:6vw;
+    }
+ 
+    .shoes{
+        display: none;
+    }
+    .shoes2{
+
+        position: absolute;
+        display: inline;
+        width: 29vw;
+        height: 29vw;
+        right: 35.5vw;
+        top: 140vw;
+    
+    }
+    .shoestext{
+        position: absolute;
+        font-size: 2.5vw;
+        letter-spacing: 0.1vw;
+        top:174vw;
+        left: 30vw;
+    }
+    .showbigb{
+        top:63vw;
+    }
+    .bagmodel{
+        top:8vw;
+    }
+    .bagname{
+        font-size: 3vw;
+        width: 40vw;
+        margin-left: 1vw;
+    }
+    .bagtext2{
+        margin-top: 30vw;
+        font-size: 1vw;
+        margin-left: 5.5vw;
+    }
+    .bag{
+        position: absolute;
+        width: 26vw;
+        height: 35vw;
+        right: 18vw;
+        top: 82.5vw;
+        left: 37vw;
+    }
+   
+    .bagtext{
+        position: absolute;
+        font-size: 2.5vw;
+        letter-spacing:0.1vw;
+        top: 122vw;
+        right: 37.5vw;
+    }
+    
+    .shoesname{
+      
+        margin-top: 20vw;
+        margin-left: 1vw;
+ 
+    }
+    .shoestext2{
+       
+        margin-top: 30vw;
+        margin-left: 6vw;
+    }
+
+    .skirtext{
+        position: absolute;
+        letter-spacing: 0.3vw;
+        width: 30vw;
+        font-size: 3vw;
+        color: #fff;
+        margin-top: 20vw;
+        margin-left: 5vw;
+        z-index: 10;
+    }
+    .skirtext2{
+        position: absolute;
+        letter-spacing: 0.3vw;
+        width: 30vw;
+        font-size: 1vw;
+        color: #fff;
+        margin-top: 30vw;
+        margin-left: 5vw;
+    }
+
+    .showbigs{
+        top:105vw;
+    }
+    .shoesmodel{
+        top:8vw;
+    }
+    .shoesname{
+        font-size: 3vw;
+        width: 40vw;
+        margin-left: 1vw;
+    }
+    .shoestext2{
+        margin-top: 30vw;
+        font-size: 1vw;
+        margin-left: 5.5vw;
+    }
+
+    .footer{
+        padding-left:32vw;
+        height: 27vw;
+    }
+    
+
+    .meetirma{
+        line-height: 1.3vw;
+        width: 18vw;
+     
+       
+    }.help{
+        line-height: 1.3vw;
+        width: 50vw;
+ 
+       
+    }.find{
+        line-height: 1.3vw;
+        width: 13vw;
+
+       
+    }
+
+}
+
+@media screen and (max-width:576px){
+    .bag{
+        height: 26vw;
+        right: 9vw;
+        bottom: 32vw;   
+    }
+    .footer{
+        height:33vw;
+        padding-left:29vw;
+
+    }
+    .meetirma{
+       width: 21vw;
+    }
+}
